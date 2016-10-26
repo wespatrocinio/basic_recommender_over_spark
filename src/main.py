@@ -22,7 +22,7 @@ collaborative_rdd = generate_collaborative_matrix(df)
 output_recs = []
 
 # Scan all the product ids
-for product_id in df.select('product_id').collect()[:2]:
+for product_id in df.select('product_id').collect():
 	print product_id[0]
 	# Retrieve the 5 most similar products
 	similars = get_most_similars(product_id[0], collaborative_rdd)
