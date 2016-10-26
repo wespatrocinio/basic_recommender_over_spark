@@ -15,7 +15,6 @@ def generate_output_dict(reference_id, similarities):
 		"recommendations": recs
 	}
 
-def write_json_file(file_path, output_dict):
-	output_json = json.dumps(output_dict)
+def write_json_file(file_path, output_list):
 	with open(file_path, 'w') as output_file:
-		json.dump(output_dict, output_file)
+		json.dump(output_list, output_file)

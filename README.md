@@ -31,5 +31,5 @@ As the proposal of this application is a proof of knowledge / concept, the deplo
 For running this application, execute the command from the `/src` directory:
 
 ```
-python main.py
+spark-submit main.py
 ```
