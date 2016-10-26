@@ -1,3 +1,4 @@
 # -*- coding: utf-8 -*-
 
-DATA_SOURCE_PATH = "../data/data_reduced.json"
+INPUT_PATH = "../data/data_reduced.json"
+OUTPUT_PATH = "../data/recommendations.json"
